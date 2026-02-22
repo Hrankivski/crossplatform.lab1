@@ -61,8 +61,8 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
     setState(() =>
     _res1 =
     "QpH: ${res['qph']!.toStringAsFixed(4)} МДж/кг\n"
-        "Qch: ${res['qch']!.toStringAsFixed(2)} МДж/кг\n"
-        "Qgh: ${res['qgh']!.toStringAsFixed(2)} МДж/кг");
+        "Qch: ${res['qch']!.toStringAsFixed(4)} МДж/кг\n"
+        "Qgh: ${res['qgh']!.toStringAsFixed(4)} МДж/кг");
   }
 
   void _calculate2() {
